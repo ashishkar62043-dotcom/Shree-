@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="hi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>श्री सांई टेन्ट बाजार | निर्माता एवं थोक विक्रेता (Shree Sai Tent Bazar, Bagodar)</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts (Hind & Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#b91c1c',     // Deep Crimson Red
+                        primaryDark: '#7f1d1d',
+                        secondary: '#f59e0b',   // Festive Marigold Gold
+                        secondaryDark: '#d97706',
+                        accentGold: '#fef3c7',
+                        darkText: '#1f2937',
+                    },
+                    fontFamily: {
+                        hindi: ['Hind', 'sans-serif'],
+                        body: ['Poppins', 'Hind', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Poppins', 'Hind', sans-serif;
+        }
+        .pattern-bg {
+            background-color: #fffbeb;
+            background-image: radial-gradient(#d97706 0.75px, transparent 0.75px), radial-gradient(#d97706 0.75px, #fffbeb 0.75px);
+            background-size: 30px 30px;
+            background-position: 0 0, 15px 15px;
+            background-opacity: 0.05;
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #d97706;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #b45309;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased selection:bg-amber-500 selection:text-white">
+
+    <!-- Top Announcement & Quick Contact Bar -->
+    <header class="bg-gradient-to-r from-red-900 via-primary to-red-800 text-white text-xs sm:text-sm py-2 px-4 shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+            <div class="flex items-center space-x-2">
+                <span class="inline-flex items-center bg-amber-500 text-red-950 font-bold px-2 py-0.5 rounded-full text-xs">
+                    <i class="fa-solid fa-certificate mr-1"></i> निर्माता एवं थोक विक्रेता
+                </span>
+                <span class="hidden md:inline text-amber-200">| बगोदर, हजारीबाग रोड (झारखंड)</span>
+            </div>
+            
+            <!-- Quick Contact links -->
+            <div class="flex items-center space-x-3 sm:space-x-4">
+                <a href="tel:9304791102" class="hover:text-amber-300 flex items-center gap-1 font-semibold transition">
+                    <i class="fa-solid fa-phone text-amber-400"></i> 9304791102
+                </a>
+                <span class="text-red-400">|</span>
+                <a href="tel:9155515929" class="hover:text-amber-300 hidden sm:flex items-center gap-1 font-semibold transition">
+                    <i class="fa-solid fa-phone text-amber-400"></i> 9155515929
+                </a>
+                <span class="hidden sm:inline text-red-400">|</span>
+                <a href="https://wa.me/919304791102?text=नमस्ते%2C%20मुझे%20टेन्ट%20सामग्री%20के%20थोक%20भाव%20की%20जानकारी%20चाहिए।" target="_blank" class="bg-emerald-600 hover:bg-emerald-500 text-white px-2.5 py-0.5 rounded-full font-bold flex items-center gap-1 transition shadow-sm">
+                    <i class="fa-brands fa-whatsapp text-white text-sm"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Navigation Bar -->
+    <nav class="bg-white border-b border-amber-200 shadow-sm sticky top-[37px] sm:top-[41px] z-40 backdrop-blur-md bg-white/95">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Brand Logo & Name -->
+            <a href="#" class="flex items-center space-x-3 group">
+                <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-red-700 to-amber-500 flex items-center justify-center text-white text-2xl font-bold shadow-lg shadow-red-500/30 group-hover:scale-105 transition duration-300">
+                    <i class="fa-solid fa-campground"></i>
+                </div>
+                <div>
+                    <h1 class="text-xl sm:text-2xl font-black text-red-800 tracking-tight leading-tight font-hindi">श्री सांई टेन्ट बाजार</h1>
+                    <p class="text-xs font-semibold text-amber-700 tracking-wider">SHREE SAI TENT BAZAR • BAGODAR</p>
+                </div>
+            </a>
+
+            <!-- Navigation Links Desktop -->
+            <div class="hidden lg:flex items-center space-x-6 font-medium text-gray-700 text-sm">
+                <a href="#about" class="hover:text-primary transition py-1">हमारे बारे में</a>
+                <a href="#catalog" class="hover:text-primary transition py-1">कैटलॉग प्रोडक्ट्स</a>
+                <a href="#quotation" class="hover:text-primary transition py-1 text-red-700 font-bold flex items-center gap-1">
+                    <i class="fa-solid fa-calculator text-amber-500"></i> कोटेशन / बिल बनाएं
+                </a>
+                <a href="#contact" class="hover:text-primary transition py-1">संपर्क व पता</a>
+            </div>
+
+            <!-- Cart/Quote Button trigger & Call action -->
+            <div class="flex items-center space-x-3">
+                <button onclick="openQuoteDrawer()" class="relative bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-300 px-3.5 py-2 rounded-xl font-bold text-sm flex items-center gap-2 transition shadow-sm active:scale-95">
+                    <i class="fa-solid fa-receipt text-red-700 text-base"></i>
+                    <span class="hidden sm:inline">कोटेशन लिस्ट</span>
+                    <span id="cartCountBadge" class="bg-red-700 text-white text-xs px-2 py-0.5 rounded-full font-bold">0</span>
+                </button>
+
+                <a href="tel:9304791102" class="hidden sm:inline-flex bg-primary hover:bg-primaryDark text-white px-4 py-2 rounded-xl font-bold text-sm items-center gap-2 shadow-md shadow-red-700/20 transition active:scale-95">
+                    <i class="fa-solid fa-headset"></i> ऑर्डर कॉल
+                </a>
+
+                <!-- Mobile Menu Button -->
+                <button onclick="toggleMobileMenu()" class="lg:hidden p-2 text-gray-600 hover:text-red-700 text-xl focus:outline-none">
+                    <i class="fa-solid fa-bars" id="menuIcon"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Nav Menu Dropdown -->
+        <div id="mobileMenu" class="hidden lg:hidden bg-amber-50 border-t border-amber-200 px-4 py-3 space-y-2 text-sm font-semibold text-gray-800">
+            <a href="#about" onclick="toggleMobileMenu()" class="block py-2 px-3 rounded hover:bg-amber-100">हमारे बारे में</a>
+            <a href="#catalog" onclick="toggleMobileMenu()" class="block py-2 px-3 rounded hover:bg-amber-100">सामग्री कैटलॉग</a>
+            <a href="#quotation" onclick="toggleMobileMenu()" class="block py-2 px-3 rounded hover:bg-amber-100 text-red-700 flex items-center justify-between">
+                <span>कोटेशन कैलकुलेटर</span>
+                <i class="fa-solid fa-calculator"></i>
+            </a>
+            <a href="#contact" onclick="toggleMobileMenu()" class="block py-2 px-3 rounded hover:bg-amber-100">पता और मोबाइल नंबर</a>
+            <div class="pt-2 border-t border-amber-200 flex flex-col gap-2">
+                <a href="tel:9304791102" class="text-center bg-red-700 text-white py-2 rounded-lg font-bold">
+                    <i class="fa-solid fa-phone mr-1"></i> तुरंत कॉल करें (9304791102)
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section Banner -->
+    <section class="relative bg-gradient-to-b from-amber-100 via-orange-50 to-white pt-8 pb-16 overflow-hidden pattern-bg border-b border-amber-200">
+        <!-- Decorative Ornaments -->
+        <div class="absolute -top-12 -left-12 w-48 h-48 bg-amber-400/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute top-1/2 -right-12 w-64 h-64 bg-red-600/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 grid lg:grid-cols-12 gap-8 items-center relative z-10">
+            <!-- Left Headline Info -->
+            <div class="lg:col-span-7 space-y-5 text-center lg:text-left">
+                <div class="inline-flex items-center gap-2 bg-gradient-to-r from-red-600 to-amber-600 text-white px-4 py-1.5 rounded-full text-xs sm:text-sm font-bold tracking-wide shadow-md">
+                    <i class="fa-solid fa-award text-yellow-300"></i> सम्पूर्ण टेन्ट एवं डेकोरेशन मैटेरियल थोक बाजार
+                </div>
+
+                <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black text-gray-900 leading-tight font-hindi">
+                    <span class="text-red-700">श्री सांई</span> टेन्ट बाजार
+                </h1>
+                <p class="text-xl sm:text-2xl font-bold text-amber-900 font-hindi border-l-4 border-amber-500 pl-3 inline-block">
+                    निर्माता एवं थोक विक्रेता (Manufacturer & Wholesaler)
+                </p>
+
+                <p class="text-gray-700 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                    पर्दा, झालर, सिलिंग कपड़ा, दरी, कारपेट, कालिन, तिरपाल, टेबल, कुर्सी, सोफा, जयमाला सोफा एवं फ्लावर डेकोरेशन का उच्च गुणवत्ता वाला सामान 
+                    <span class="font-bold text-red-700 bg-amber-100 px-2 py-0.5 rounded">उचित थोक मूल्य</span> पर उपलब्ध है।
+                </p>
+
+                <!-- Quick highlights pills -->
+                <div class="flex flex-wrap gap-2 justify-center lg:justify-start pt-1 text-xs sm:text-sm font-semibold">
+                    <span class="bg-white border border-amber-300 text-gray-800 px-3 py-1.5 rounded-lg shadow-sm flex items-center gap-1.5">
+                        <i class="fa-solid fa-check-circle text-emerald-600"></i> डायरेक्ट फैक्ट्री रेट
+                    </span>
+                    <span class="bg-white border border-amber-300 text-gray-800 px-3 py-1.5 rounded-lg shadow-sm flex items-center gap-1.5">
+                        <i class="fa-solid fa-truck-fast text-red-600"></i> ऑल इंडिया सप्लाई
+                    </span>
+                    <span class="bg-white border border-amber-300 text-gray-800 px-3 py-1.5 rounded-lg shadow-sm flex items-center gap-1.5">
+                        <i class="fa-solid fa-crown text-amber-600"></i> जयमाला सोफा स्पेशल
+                    </span>
+                </div>
+
+                <!-- Call to action buttons -->
+                <div class="pt-4 flex flex-wrap gap-3 justify-center lg:justify-start">
+                    <a href="#catalog" class="bg-primary hover:bg-primaryDark text-white font-bold px-6 py-3.5 rounded-xl shadow-lg shadow-red-700/30 flex items-center gap-2 transform active:scale-95 transition">
+                        <i class="fa-solid fa-layer-group"></i> कैटलॉग व सामान देखें
+                    </a>
+                    <a href="https://wa.me/919304791102?text=नमस्ते%20श्री%20सांई%20टेन्ट%20बाजार%2C%20मुझे%20थोक%20सामान%20की%20खरीदारी%20करनी%20है।" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-6 py-3.5 rounded-xl shadow-lg shadow-emerald-700/20 flex items-center gap-2 transform active:scale-95 transition">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> व्हाट्सएप पर बात करें
+                    </a>
+                    <a href="#quotation" class="bg-amber-100 hover:bg-amber-200 text-amber-900 border border-amber-300 font-bold px-5 py-3.5 rounded-xl flex items-center gap-2 transition">
+                        <i class="fa-solid fa-file-invoice text-amber-700"></i> कोटेशन बनाएं
+                    </a>
+                </div>
+
+                <!-- Banner location highlight badge -->
+                <div class="pt-3 text-xs sm:text-sm text-gray-600 flex items-center justify-center lg:justify-start gap-2">
+                    <i class="fa-solid fa-location-dot text-red-600 text-base"></i>
+                    <span><strong>पता:</strong> बगोदर, हजारीबाग रोड, नियर हरिहर धाम, एनएच 2, ओवरब्रिज के नीचे</span>
+                </div>
+            </div>
+
+            <!-- Right Visual Cards / Banner showcase -->
+            <div class="lg:col-span-5 relative">
+                <div class="bg-white rounded-3xl p-5 shadow-2xl border-4 border-amber-300 relative overflow-hidden">
+                    <div class="absolute -top-3 -right-3 bg-red-700 text-white text-xs font-bold px-5 py-1.5 rounded-bl-2xl shadow">
+                        ★ TOP WHOLESALER
+                    </div>
+
+                    <!-- Banner Replicating Graphic Grid -->
+                    <div class="text-center pb-3 border-b border-gray-100">
+                        <span class="text-xs uppercase tracking-widest text-amber-700 font-extrabold">Shree Sai Tent Bazar Gallery</span>
+                        <h3 class="text-lg font-bold text-gray-900">शादी एवं इवेंट डेकोरेशन स्पेशलिस्ट</h3>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-3 mt-3">
+                        <div class="relative group overflow-hidden rounded-xl h-36 bg-gray-100 border border-amber-100 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80" alt="Jaymala Stage Decor" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x300/e2e8f0/b91c1c?text=Stage+Decor'">
+                            <span class="absolute bottom-1 left-1 bg-black/70 text-white text-[11px] font-semibold px-2 py-0.5 rounded">जयमाला सोफा व स्टेज</span>
+                        </div>
+                        <div class="relative group overflow-hidden rounded-xl h-36 bg-gray-100 border border-amber-100 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1545232979-fbf68fe9f1af?auto=format&fit=crop&w=600&q=80" alt="Ceiling Fabric & Parda" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x300/e2e8f0/b91c1c?text=Tent+Fabric'">
+                            <span class="absolute bottom-1 left-1 bg-black/70 text-white text-[11px] font-semibold px-2 py-0.5 rounded">पर्दा, झालर, सिलिंग</span>
+                        </div>
+                        <div class="relative group overflow-hidden rounded-xl h-36 bg-gray-100 border border-amber-100 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=600&q=80" alt="Artificial Flowers" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x300/e2e8f0/b91c1c?text=Flower+Props'">
+                            <span class="absolute bottom-1 left-1 bg-black/70 text-white text-[11px] font-semibold px-2 py-0.5 rounded">फ्लावर डेकोरेशन सामान</span>
+                        </div>
+                        <div class="relative group overflow-hidden rounded-xl h-36 bg-gray-100 border border-amber-100 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80" alt="Carpet & Flooring" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x300/e2e8f0/b91c1c?text=Carpets+Tirpal'">
+                            <span class="absolute bottom-1 left-1 bg-black/70 text-white text-[11px] font-semibold px-2 py-0.5 rounded">दरी, कालीन, तिरपाल</span>
+                        </div>
+                    </div>
+
+                    <!-- Direct phone numbers box from banner -->
+                    <div class="mt-4 bg-gradient-to-r from-red-50 to-amber-50 p-3 rounded-2xl border border-red-200">
+                        <p class="text-xs font-bold text-red-900 uppercase tracking-wide text-center mb-1">सीधे प्रोप्राइटर से संपर्क करें</p>
+                        <div class="grid grid-cols-3 gap-1 text-center font-bold text-xs sm:text-sm">
+                            <a href="tel:9304791102" class="p-1.5 rounded-lg bg-white shadow-sm border border-amber-200 hover:text-red-700">
+                                <i class="fa-solid fa-phone text-xs text-red-600 block mb-0.5"></i> 9304791102
+                            </a>
+                            <a href="tel:9155515929" class="p-1.5 rounded-lg bg-white shadow-sm border border-amber-200 hover:text-red-700">
+                                <i class="fa-solid fa-phone text-xs text-red-600 block mb-0.5"></i> 9155515929
+                            </a>
+                            <a href="tel:6207127998" class="p-1.5 rounded-lg bg-white shadow-sm border border-amber-200 hover:text-red-700">
+                                <i class="fa-solid fa-phone text-xs text-red-600 block mb-0.5"></i> 6207127998
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Quick Filters Bar -->
+    <section id="catalog" class="py-10 max-w-7xl mx-auto px-4">
+        <div class="text-center max-w-3xl mx-auto mb-8">
+            <span class="text-red-700 font-bold tracking-wider text-xs sm:text-sm uppercase bg-red-100 px-3 py-1 rounded-full">प्रोडक्ट कैटलॉग</span>
+            <h2 class="text-2xl sm:text-4xl font-extrabold text-gray-900 mt-2 font-hindi">टेन्ट एवं डेकोरेशन की संपूर्ण सामग्री</h2>
+            <p class="text-gray-600 mt-2 text-sm sm:text-base">अपनी पसंद का सामान चुनें, मात्रा दर्ज करें और तुरंत थोक दर पर कोटेशन व व्हाट्सएप आर्डर भेजें।</p>
+        </div>
+
+        <!-- Filter Tab Buttons -->
+        <div class="flex flex-wrap justify-center items-center gap-2 mb-8" id="categoryFilterContainer">
+            <button onclick="filterCategory('all')" class="category-btn active bg-red-700 text-white px-5 py-2 rounded-xl text-sm font-bold shadow-md transition" data-category="all">
+                सभी सामान (All Items)
+            </button>
+            <button onclick="filterCategory('cloth')" class="category-btn bg-white hover:bg-amber-100 text-gray-800 border border-amber-200 px-4 py-2 rounded-xl text-sm font-bold shadow-sm transition" data-category="cloth">
+                <i class="fa-solid fa-scroll text-red-600 mr-1"></i> पर्दा, झालर व सिलिंग
+            </button>
+            <button onclick="filterCategory('flooring')" class="category-btn bg-white hover:bg-amber-100 text-gray-800 border border-amber-200 px-4 py-2 rounded-xl text-sm font-bold shadow-sm transition" data-category="flooring">
+                <i class="fa-solid fa-rug text-amber-600 mr-1"></i> दरी, कालीन व तिरपाल
+            </button>
+            <button onclick="filterCategory('furniture')" class="category-btn bg-white hover:bg-amber-100 text-gray-800 border border-amber-200 px-4 py-2 rounded-xl text-sm font-bold shadow-sm transition" data-category="furniture">
+                <i class="fa-solid fa-couch text-purple-600 mr-1"></i> सोफा, जयमाला व कुर्सी
+            </button>
+            <button onclick="filterCategory('flowers')" class="category-btn bg-white hover:bg-amber-100 text-gray-800 border border-amber-200 px-4 py-2 rounded-xl text-sm font-bold shadow-sm transition" data-category="flowers">
+                <i class="fa-solid fa-spa text-pink-600 mr-1"></i> फ्लावर एवं स्टेज सजावट
+            </button>
+        </div>
+
+        <!-- Product Cards Grid -->
+        <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <!-- Dynamic products will render here -->
+        </div>
+    </section>
+
+    <!-- Interactive Quotation Builder & Estimator -->
+    <section id="quotation" class="py-14 bg-gradient-to-br from-amber-50 to-orange-100 border-y border-amber-200">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-10">
+                <span class="bg-amber-500 text-white font-bold text-xs uppercase px-3 py-1 rounded-full shadow-sm">
+                    <i class="fa-solid fa-calculator mr-1"></i> Instant Wholesale Estimate
+                </span>
+                <h2 class="text-2xl sm:text-4xl font-extrabold text-gray-900 mt-2 font-hindi">थोक भाव बिल / कोटेशन कैलकुलेटर</h2>
+                <p class="text-gray-600 text-sm sm:text-base mt-2">कैटलॉग से सामान जोड़ें या नीचे सीधे अपनी सूची तैयार कर व्हाट्सएप पर तुरंत ऑर्डर भेजें।</p>
+            </div>
+
+            <div class="bg-white rounded-3xl shadow-xl border border-amber-300 p-5 sm:p-8">
+                <!-- Quote Items Table -->
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse text-sm">
+                        <thead>
+                            <tr class="border-b-2 border-amber-200 text-gray-700 bg-amber-50/70">
+                                <th class="p-3 font-bold rounded-l-lg">आइटम का नाम (Item)</th>
+                                <th class="p-3 font-bold text-center">इकाई (Unit)</th>
+                                <th class="p-3 font-bold text-right">थोक दर (Est. Rate)</th>
+                                <th class="p-3 font-bold text-center">मात्रा (Qty)</th>
+                                <th class="p-3 font-bold text-right">कुल रकम (Total)</th>
+                                <th class="p-3 font-bold text-center rounded-r-lg">हटाएं</th>
+                            </tr>
+                        </thead>
+                        <tbody id="quoteTableBody" class="divide-y divide-gray-100">
+                            <!-- Items inserted dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Empty State Message -->
+                <div id="emptyQuoteNotice" class="py-10 text-center">
+                    <div class="w-16 h-16 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center mx-auto text-2xl mb-3">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <p class="text-gray-600 font-medium">आपकी कोटेशन सूची अभी खाली है। ऊपर कैटलॉग से "जोड़ें (+)" बटन दबाएं।</p>
+                    <a href="#catalog" class="inline-block mt-3 bg-red-700 text-white text-xs font-bold px-4 py-2 rounded-xl">सामग्री चुनें</a>
+                </div>
+
+                <!-- Summary & Order Form -->
+                <div id="quoteSummarySection" class="mt-8 pt-6 border-t border-amber-200 hidden">
+                    <div class="grid md:grid-cols-2 gap-8 items-start">
+                        <!-- Buyer info inputs -->
+                        <div class="bg-gray-50 p-5 rounded-2xl border border-gray-200 space-y-3">
+                            <h4 class="font-bold text-gray-900 text-base flex items-center gap-2">
+                                <i class="fa-solid fa-user-check text-red-600"></i> ग्राहक / टेन्ट हाउस का विवरण
+                            </h4>
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-600 mb-1">आपका नाम / टेन्ट हाउस का नाम *</label>
+                                <input type="text" id="buyerName" placeholder="उदा: राहुल कुमार (मां अम्बे टेन्ट हाउस)" class="w-full px-3.5 py-2.5 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500 text-sm">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-600 mb-1">मोबाइल नंबर *</label>
+                                <input type="tel" id="buyerPhone" placeholder="10 अंकों का फोन नंबर" class="w-full px-3.5 py-2.5 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500 text-sm">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-600 mb-1">स्थान / शहर / डिलीवरी पता *</label>
+                                <input type="text" id="buyerAddress" placeholder="उदा: बगोदर / हजारीबाग / गिरिडीह / धनबाद" class="w-full px-3.5 py-2.5 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500 text-sm">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-600 mb-1">अतिरिक्त विवरण / स्पेशल नोट</label>
+                                <textarea id="buyerNote" rows="2" placeholder="कोई खास रंग, साइज या अन्य सामान..." class="w-full px-3.5 py-2.5 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500 text-sm"></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Grand Total & Action Buttons -->
+                        <div class="bg-amber-50 p-6 rounded-2xl border border-amber-200 flex flex-col justify-between h-full space-y-5">
+                            <div>
+                                <div class="flex justify-between items-center text-sm text-gray-600 pb-2">
+                                    <span>कुल प्रकार के सामान (Items):</span>
+                                    <span id="summaryTotalItems" class="font-bold text-gray-900">0</span>
+                                </div>
+                                <div class="flex justify-between items-center text-sm text-gray-600 pb-2">
+                                    <span>कुल मात्रा (Total Units):</span>
+                                    <span id="summaryTotalQty" class="font-bold text-gray-900">0</span>
+                                </div>
+                                <div class="flex justify-between items-center text-lg font-bold text-gray-900 border-t border-amber-300 pt-3">
+                                    <span>अनुमानित कुल राशि:</span>
+                                    <span id="summaryGrandTotal" class="text-2xl text-red-700 font-extrabold">₹0</span>
+                                </div>
+                                <p class="text-[11px] text-gray-500 mt-2 leading-tight">
+                                    * यह अनुमानित थोक कोटेशन है। बड़ी मात्रा (Bulk order) एवं ट्रांसपोर्टेशन पर अंतिम विशेष छूट के लिए सीधे बात करें।
+                                </p>
+                            </div>
+
+                            <div class="space-y-3 pt-2">
+                                <button onclick="sendOrderToWhatsApp()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-emerald-600/30 transition active:scale-95 text-base">
+                                    <i class="fa-brands fa-whatsapp text-2xl"></i> व्हाट्सएप पर कोटेशन / ऑर्डर भेजें
+                                </button>
+
+                                <button onclick="printQuotation()" class="w-full bg-white hover:bg-gray-100 text-gray-800 border border-gray-300 font-bold py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 text-sm transition">
+                                    <i class="fa-solid fa-print text-gray-600"></i> कोटेशन प्रिंट / सेव करें
+                                </button>
+                                
+                                <button onclick="clearQuote()" class="w-full text-xs text-red-600 hover:underline text-center">
+                                    पूरी लिस्ट रीसेट करें (Clear All)
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us / Quality Assurance -->
+    <section id="about" class="py-14 max-w-7xl mx-auto px-4">
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+            <div>
+                <span class="text-red-700 font-bold tracking-wide text-xs uppercase bg-red-100 px-3 py-1 rounded-full">श्री सांई टेन्ट बाजार की विशेषताएं</span>
+                <h2 class="text-2xl sm:text-4xl font-extrabold text-gray-900 mt-3 font-hindi leading-snug">
+                    टेन्ट व्यापारियों के भरोसेमंद निर्माता एवं थोक विक्रेता
+                </h2>
+                <p class="text-gray-600 mt-4 leading-relaxed text-sm sm:text-base">
+                    हम बगोदर (झारखंड) में एनएच-2 ओवरब्रिज के ठीक नीचे स्थित हैं। हम शादी, पार्टी, पंडाल और स्टेज डेकोरेशन से जुड़ी सभी आवश्यक सामग्रियों के सीधे निर्माता और मुख्य थोक विक्रेता हैं। हमारे पास बिचौलियों के बिना सीधे उचित दर पर माल मिलता है।
+                </p>
+
+                <div class="grid grid-cols-2 gap-4 mt-6">
+                    <div class="p-4 rounded-2xl bg-amber-50 border border-amber-200">
+                        <div class="text-red-700 text-2xl mb-1"><i class="fa-solid fa-industry"></i></div>
+                        <h4 class="font-bold text-gray-900 text-sm">स्वयं का निर्माण</h4>
+                        <p class="text-xs text-gray-600 mt-1">सिलिंग, झालर, पर्दा और जयमाला सोफे का बेहतरीन निर्माण।</p>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-amber-50 border border-amber-200">
+                        <div class="text-red-700 text-2xl mb-1"><i class="fa-solid fa-tags"></i></div>
+                        <h4 class="font-bold text-gray-900 text-sm">सच्चा थोक भाव</h4>
+                        <p class="text-xs text-gray-600 mt-1">सीधे थोक मूल्य पर सामान, कोई छुपा हुआ शुल्क नहीं।</p>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-amber-50 border border-amber-200">
+                        <div class="text-red-700 text-2xl mb-1"><i class="fa-solid fa-gem"></i></div>
+                        <h4 class="font-bold text-gray-900 text-sm">लेटेस्ट डिजाइन</h4>
+                        <p class="text-xs text-gray-600 mt-1">ट्रेंडिंग जयमाला सोफा, नई वैरायटी के फैब्रिक व फ्लावर्स।</p>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-amber-50 border border-amber-200">
+                        <div class="text-red-700 text-2xl mb-1"><i class="fa-solid fa-phone-volume"></i></div>
+                        <h4 class="font-bold text-gray-900 text-sm">त्वरित सेवा</h4>
+                        <p class="text-xs text-gray-600 mt-1">फोन और व्हाट्सएप पर तुरंत ऑर्डर व डिलीवरी परामर्श।</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Banner Highlight Photo Reel -->
+            <div class="relative bg-gradient-to-tr from-amber-400 to-red-600 rounded-3xl p-2 sm:p-4 shadow-xl text-white">
+                <div class="bg-gray-900 rounded-2xl p-6 space-y-4">
+                    <div class="flex items-center justify-between border-b border-gray-700 pb-3">
+                        <div>
+                            <p class="text-amber-400 font-bold text-xs uppercase">Original Banner Specs</p>
+                            <h3 class="text-xl font-bold font-hindi">दुकान का विवरण एवं उपलब्धता</h3>
+                        </div>
+                        <span class="bg-red-600 text-xs px-3 py-1 rounded-full font-bold">झारखंड</span>
+                    </div>
+
+                    <ul class="space-y-3 text-sm text-gray-200">
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-circle-check text-amber-400 mt-1"></i>
+                            <span><strong>पर्दा, झालर, सिलिंग कपड़ा:</strong> सभी रंगों, डिजाइनों और हैवी क्वालिटी में मौजूद।</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-circle-check text-amber-400 mt-1"></i>
+                            <span><strong>दरी, कारपेट, कालिन, तिरपाल:</strong> वाटरप्रूफ और मजबूत शादी-पंडाल ग्रेड।</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-circle-check text-amber-400 mt-1"></i>
+                            <span><strong>टेबल, कुर्सी, सोफा, जयमाला सोफा:</strong> शाही जयमाला सोफा, वीआईपी चेयर व बैंक्वेट टेबल।</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-circle-check text-amber-400 mt-1"></i>
+                            <span><strong>टेन्ट एवं फ्लावर का सामान:</strong> हैंगिंग फ्लॉवर्स, आर्टिफिशियल झालर व स्टेज एक्सेसरीज।</span>
+                        </li>
+                    </ul>
+
+                    <div class="bg-red-900/60 p-4 rounded-xl border border-red-500/50 mt-4">
+                        <p class="text-xs text-amber-200 font-bold">दुकान का वास्तविक पता:</p>
+                        <p class="text-sm font-semibold text-white mt-1">
+                            बगोदर, हजारीबाग रोड, नियर हरिहर धाम, एनएच 2, ओवरब्रिज के नीचे (झारखंड)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact Hub -->
+    <section id="contact" class="py-14 bg-gray-900 text-white relative">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-10">
+                <span class="bg-red-600 text-white font-bold text-xs uppercase px-3 py-1 rounded-full">Contact & Location</span>
+                <h2 class="text-2xl sm:text-4xl font-extrabold text-white mt-2 font-hindi">संपर्क करें व दुकान पर पधारें</h2>
+                <p class="text-gray-300 text-sm mt-1">ऑर्डर, रेट पूछताछ या दुकान पर आने के लिए नीचे दिए गए नंबरों पर सीधे संपर्क करें।</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6 mb-10">
+                <!-- Phone Numbers Box -->
+                <div class="bg-gray-800 p-6 rounded-2xl border border-gray-700 flex flex-col justify-between hover:border-amber-400 transition">
+                    <div>
+                        <div class="w-12 h-12 bg-red-600/20 text-red-500 rounded-xl flex items-center justify-center text-2xl mb-4">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </div>
+                        <h4 class="text-lg font-bold font-hindi">फोन कॉलिंग नंबर</h4>
+                        <p class="text-xs text-gray-400 mt-1">सीधे कॉल करके तुरंत भाव और माल की जानकारी पाएं:</p>
+                        <div class="mt-4 space-y-2">
+                            <a href="tel:9304791102" class="flex items-center justify-between bg-gray-700/60 hover:bg-red-700 p-2.5 rounded-xl transition text-sm font-bold">
+                                <span><i class="fa-solid fa-phone mr-2 text-amber-400"></i> 9304791102</span>
+                                <span class="text-xs bg-red-500/40 px-2 py-0.5 rounded">कॉल करें</span>
+                            </a>
+                            <a href="tel:9155515929" class="flex items-center justify-between bg-gray-700/60 hover:bg-red-700 p-2.5 rounded-xl transition text-sm font-bold">
+                                <span><i class="fa-solid fa-phone mr-2 text-amber-400"></i> 9155515929</span>
+                                <span class="text-xs bg-red-500/40 px-2 py-0.5 rounded">कॉल करें</span>
+                            </a>
+                            <a href="tel:6207127998" class="flex items-center justify-between bg-gray-700/60 hover:bg-red-700 p-2.5 rounded-xl transition text-sm font-bold">
+                                <span><i class="fa-solid fa-phone mr-2 text-amber-400"></i> 6207127998</span>
+                                <span class="text-xs bg-red-500/40 px-2 py-0.5 rounded">कॉल करें</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WhatsApp & Chat Box -->
+                <div class="bg-gray-800 p-6 rounded-2xl border border-gray-700 flex flex-col justify-between hover:border-emerald-400 transition">
+                    <div>
+                        <div class="w-12 h-12 bg-emerald-600/20 text-emerald-400 rounded-xl flex items-center justify-center text-2xl mb-4">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <h4 class="text-lg font-bold font-hindi">व्हाट्सएप सपोर्ट</h4>
+                        <p class="text-xs text-gray-400 mt-1">फोटो देखने और लाइव रेट लिस्ट मंगाने के लिए मैसेज भेजें:</p>
+                        <div class="mt-4 space-y-3">
+                            <a href="https://wa.me/919304791102?text=नमस्ते%20श्री%20सांई%20टेन्ट%20बाजार%2C%20कृपया%20कैटलॉग%20और%20थोक%20भाव%20की%20जानकारी%20दें।" target="_blank" class="block w-full text-center bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 rounded-xl transition">
+                                <i class="fa-brands fa-whatsapp mr-1 text-lg"></i> 9304791102 पर चैट करें
+                            </a>
+                            <a href="https://wa.me/919155515929?text=नमस्ते%20श्री%20सांई%20टेन्ट%20बाजार%2C%20मुझे%20थोक%20खरीदारी%20करनी%20है।" target="_blank" class="block w-full text-center bg-emerald-800/80 hover:bg-emerald-700 text-white font-semibold py-2.5 rounded-xl transition text-sm">
+                                <i class="fa-brands fa-whatsapp mr-1"></i> 9155515929 पर चैट करें
+                            </a>
+                        </div>
+                    </div>
+                    <p class="text-[11px] text-gray-400 mt-4 text-center">सोमवार से रविवार: 8:00 AM - 9:00 PM</p>
+                </div>
+
+                <!-- Address & Route Box -->
+                <div class="bg-gray-800 p-6 rounded-2xl border border-gray-700 flex flex-col justify-between hover:border-amber-400 transition">
+                    <div>
+                        <div class="w-12 h-12 bg-amber-500/20 text-amber-400 rounded-xl flex items-center justify-center text-2xl mb-4">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                        </div>
+                        <h4 class="text-lg font-bold font-hindi">दुकान का सटीक पता</h4>
+                        <p class="text-sm text-gray-300 mt-2 leading-relaxed">
+                            <strong>श्री सांई टेन्ट बाजार</strong><br>
+                            बगोदर, हजारीबाग रोड,<br>
+                            नियर हरिहर धाम (प्रसिद्ध मंदिर),<br>
+                            एनएच-2 (NH 2), ओवरब्रिज के नीचे<br>
+                            झारखंड
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-gray-700">
+                        <a href="https://www.google.com/maps/search/Bagodar+Harihar+Dham+NH2+Hazaribagh+Road" target="_blank" class="w-full bg-amber-500 hover:bg-amber-400 text-red-950 font-bold py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 text-sm transition">
+                            <i class="fa-solid fa-diamond-turn-right text-base"></i> गूगल मैप्स पर रास्ता देखें
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Inquiry Form modal / embedded -->
+            <div class="bg-gray-800/90 border border-gray-700 rounded-3xl p-6 sm:p-8 max-w-3xl mx-auto">
+                <h3 class="text-xl font-bold font-hindi text-amber-400 text-center mb-1">त्वरित संदेश / पूछताछ भेजें</h3>
+                <p class="text-center text-xs text-gray-300 mb-6">क्या आपको कोई खास सामान चाहिए? अपना संदेश नीचे भेजें:</p>
+                
+                <form id="contactForm" onsubmit="handleInquirySubmit(event)" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-xs font-semibold text-gray-300 mb-1">आपका नाम</label>
+                        <input type="text" id="inqName" required class="w-full bg-gray-900 border border-gray-700 rounded-xl px-3 py-2 text-sm text-white focus:outline-none focus:border-amber-400">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-gray-300 mb-1">फोन नंबर</label>
+                        <input type="tel" id="inqPhone" required class="w-full bg-gray-900 border border-gray-700 rounded-xl px-3 py-2 text-sm text-white focus:outline-none focus:border-amber-400">
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label class="block text-xs font-semibold text-gray-300 mb-1">आप क्या सामान खरीदना चाहते हैं?</label>
+                        <textarea id="inqMsg" rows="3" required placeholder="जैसे: 500 मीटर सिलिंग कपड़ा, 2 सेट जयमाला सोफा, 100 दरी..." class="w-full bg-gray-900 border border-gray-700 rounded-xl px-3 py-2 text-sm text-white focus:outline-none focus:border-amber-400"></textarea>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <button type="submit" class="w-full bg-red-700 hover:bg-red-600 text-white font-bold py-3 rounded-xl transition text-sm flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-paper-plane"></i> इन्क्वायरी भेजें (WhatsApp द्वारा)
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Side Quotation Cart Drawer -->
+    <div id="quoteDrawer" class="fixed inset-y-0 right-0 w-full sm:w-96 bg-white shadow-2xl z-50 transform translate-x-full transition-transform duration-300 flex flex-col">
+        <div class="bg-red-800 text-white p-4 flex justify-between items-center">
+            <h3 class="font-bold flex items-center gap-2">
+                <i class="fa-solid fa-clipboard-list text-amber-300"></i> आपकी कोटेशन लिस्ट
+            </h3>
+            <button onclick="closeQuoteDrawer()" class="text-white hover:text-amber-300 p-1 text-lg">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <div class="p-4 flex-1 overflow-y-auto space-y-3" id="drawerItemsList">
+            <!-- Dynamic drawer contents -->
+        </div>
+
+        <div class="p-4 bg-amber-50 border-t border-amber-200">
+            <div class="flex justify-between items-center mb-3 text-sm">
+                <span class="font-semibold text-gray-700">कुल अनुमानित:</span>
+                <span id="drawerTotal" class="font-extrabold text-red-700 text-lg">₹0</span>
+            </div>
+            <a href="#quotation" onclick="closeQuoteDrawer()" class="block w-full text-center bg-red-700 hover:bg-red-800 text-white font-bold py-2.5 rounded-xl text-sm mb-2 transition">
+                पूरा बिल देखें व WhatsApp भेजें
+            </a>
+            <button onclick="clearQuote()" class="w-full text-center text-xs text-gray-500 hover:text-red-600 py-1">
+                खाली करें (Clear)
+            </button>
+        </div>
+    </div>
+    <!-- Drawer backdrop overlay -->
+    <div id="drawerOverlay" onclick="closeQuoteDrawer()" class="fixed inset-0 bg-black/50 z-40 hidden"></div>
+
+    <!-- Toast Notification Box -->
+    <div id="toastNotification" class="fixed bottom-6 right-6 bg-gray-900 text-white px-5 py-3 rounded-xl shadow-2xl flex items-center gap-3 transform translate-y-24 opacity-0 transition-all duration-300 z-50 border-l-4 border-amber-400">
+        <i class="fa-solid fa-circle-check text-amber-400 text-lg" id="toastIcon"></i>
+        <span id="toastMessage" class="text-sm font-semibold">आइटम सफलतापूर्वक जोड़ा गया!</span>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-950 text-gray-400 py-8 border-t border-gray-800 text-xs">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-4 text-center sm:text-left">
+            <div>
+                <p class="text-sm font-bold text-white font-hindi">श्री सांई टेन्ट बाजार (Shree Sai Tent Bazar)</p>
+                <p class="text-gray-400 mt-0.5">निर्माता एवं थोक विक्रेता • बगोदर, हजारीबाग रोड, एनएच 2 ओवरब्रिज, झारखंड</p>
+                <p class="text-gray-500 text-[11px] mt-1">संपर्क: 9304791102, 9155515929, 6207127998</p>
+            </div>
+            <div class="text-gray-400">
+                <p>© 2026 श्री सांई टेन्ट बाजार. सर्वाधिकार सुरक्षित.</p>
+                <p class="text-[11px] text-amber-400/80 mt-1">शादी, उत्सव एवं इवेंट डेकोरेशन सामग्री का भरोसेमंद केंद्र</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive JavaScript Logic -->
+    <script>
+        // Products Database mirroring Banner Offerings
+        const productsData = [
+            {
+                id: 'p1',
+                name: 'पर्दा एवं सिलिंग कपड़ा (Ceiling & Curtain Fabric)',
+                category: 'cloth',
+                rate: 35,
+                unit: 'मीटर',
+                minQty: 100,
+                desc: 'शाइनिंग साटन, ताइवान, जॉर्जेट व फैंसी कलर्स में उपलब्ध। उच्च मजबूती।',
+                img: 'https://images.unsplash.com/photo-1545232979-fbf68fe9f1af?auto=format&fit=crop&w=500&q=80',
+                badge: 'थोक बेस्ट सेलर'
+            },
+            {
+                id: 'p2',
+                name: 'डिजाइनर झालर एवं फ्रिल (Stage Jhalar / Frill)',
+                category: 'cloth',
+                rate: 45,
+                unit: 'मीटर',
+                minQty: 50,
+                desc: 'गोल्डन, रेड व मल्टीकलर बॉर्डर झालर, पंडाल और स्टेज बॉर्डर के लिए।',
+                img: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=500&q=80',
+                badge: 'हैंडमेड फिनिशिंग'
+            },
+            {
+                id: 'p3',
+                name: 'शाही जयमाला सोफा (Royal Jaymala Sofa Set)',
+                category: 'furniture',
+                rate: 14500,
+                unit: 'पीस',
+                minQty: 1,
+                desc: 'गोल्डन नक्काशीदार फ्रेम, भारी मखमली कुशन, दूल्हा-दुल्हन स्टेज के लिए।',
+                img: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=500&q=80',
+                badge: 'फैक्ट्री निर्माण'
+            },
+            {
+                id: 'p4',
+                name: 'वीआईपी बैंक्वेट चेयर (VIP Event Chairs)',
+                category: 'furniture',
+                rate: 850,
+                unit: 'पीस',
+                minQty: 25,
+                desc: 'स्टील व हैवी आयरन फ्रेम, कुशन सीट, शादी व पार्टियों के लिए टिकाऊ।',
+                img: 'https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=500&q=80',
+                badge: 'सुपर स्ट्रॉन्ग'
+            },
+            {
+                id: 'p5',
+                name: 'बैंक्वेट टेबल (Folding Banquet Tables)',
+                category: 'furniture',
+                rate: 1800,
+                unit: 'पीस',
+                minQty: 5,
+                desc: '6x2.5 फीट व 5x2.5 फीट हैवी ड्यूटी फोल्डिंग टेबल (कैटरिंग व स्टेज)।',
+                img: 'https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?auto=format&fit=crop&w=500&q=80',
+                badge: 'फोल्डिंग'
+            },
+            {
+                id: 'p6',
+                name: 'रेड कारपेट व इवेंट कालिन (Red Carpet Rolls)',
+                category: 'flooring',
+                rate: 22,
+                unit: 'वर्ग फीट',
+                minQty: 100,
+                desc: 'समारोह, वीआईपी एंट्री व स्टेज के लिए नॉन-स्लिप हैवी रेड व ग्रीन कारपेट।',
+                img: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=500&q=80',
+                badge: 'वाशेबल'
+            },
+            {
+                id: 'p7',
+                name: 'पंडाल दरी (Heavy Floor Dari)',
+                category: 'flooring',
+                rate: 280,
+                unit: 'पीस',
+                minQty: 20,
+                desc: 'पक्के सूती धागे से बुनी मजबूत व टिकाऊ टेन्ट दरी (10x12, 12x15 साइज)।',
+                img: 'https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=500&q=80',
+                badge: 'होलसेल लॉट'
+            },
+            {
+                id: 'p8',
+                name: 'वाटरप्रूफ तिरपाल (Heavy Waterproof Tarpaulin)',
+                category: 'flooring',
+                rate: 850,
+                unit: 'पीस',
+                minQty: 5,
+                desc: '100% वाटरप्रूफ, यूवी प्रोटेक्टेड, पंडाल की छत और शेड के लिए उपयुक्त।',
+                img: 'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=500&q=80',
+                badge: 'ऑल वेदर'
+            },
+            {
+                id: 'p9',
+                name: 'आर्टिफिशियल फ्लावर हैंगिंग लड़ी (Flower Garlands)',
+                category: 'flowers',
+                rate: 18,
+                unit: 'लड़ी (String)',
+                minQty: 50,
+                desc: 'गेंदा, मोगरा, गुलाब व विस्टेरिया डिजाइन। प्राकृतिक जैसा लुक।',
+                img: 'https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=500&q=80',
+                badge: 'डेकोरेशन स्पेशल'
+            },
+            {
+                id: 'p10',
+                name: 'फाइबर स्टेज गेट व पिलर प्रॉप्स (Fiber Stage Props)',
+                category: 'flowers',
+                rate: 12500,
+                unit: 'सेट',
+                minQty: 1,
+                desc: 'जयमाला और एंट्री गेट के लिए नक्काशीदार फाइबर पिलर्स व आर्क।',
+                img: 'https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&w=500&q=80',
+                badge: 'प्रीमियम लुक'
+            },
+            {
+                id: 'p11',
+                name: 'फ्लोर मैट एवं घास कारपेट (Artificial Grass Mat)',
+                category: 'flooring',
+                rate: 32,
+                unit: 'वर्ग फीट',
+                minQty: 100,
+                desc: 'ग्रीन आर्टिफिशियल ग्रास, मेहंदी-हल्दी और वीआईपी लाउंज एरिया हेतु।',
+                img: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=500&q=80',
+                badge: 'पॉपुलर'
+            },
+            {
+                id: 'p12',
+                name: 'महाराजा सोफा चेयर जोड़ी (Maharaja Couple Chairs)',
+                category: 'furniture',
+                rate: 9800,
+                unit: 'जोड़ी (Pair)',
+                minQty: 1,
+                desc: 'हाई-बैक गोल्डन फिनिश चेयर सेट, स्टेज और वीआईपी सिटिंग के लिए।',
+                img: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=500&q=80',
+                badge: 'हाई बैक'
+            }
+        ];
+
+        // State: Quote/Cart items: { id: { ...product, qty: number } }
+        let quoteCart = {};
+
+        // Initialization
+        window.onload = function() {
+            renderProducts('all');
+            loadPersistedCart();
+            updateQuoteUI();
+        };
+
+        // Render Product Catalog
+        function renderProducts(category) {
+            const grid = document.getElementById('productGrid');
+            grid.innerHTML = '';
+
+            const filtered = category === 'all' 
+                ? productsData 
+                : productsData.filter(p => p.category === category);
+
+            filtered.forEach(p => {
+                const card = document.createElement('div');
+                card.className = "bg-white rounded-2xl border border-amber-200 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group";
+                
+                card.innerHTML = `
+                    <div class="relative overflow-hidden h-48 bg-gray-100">
+                        <img src="${p.img}" alt="${p.name}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/400x300/e2e8f0/b91c1c?text=${encodeURIComponent(p.name)}'">
+                        <span class="absolute top-2 left-2 bg-red-700 text-white text-[10px] font-bold px-2 py-0.5 rounded shadow">
+                            ${p.badge}
+                        </span>
+                        <span class="absolute bottom-2 right-2 bg-amber-500 text-red-950 text-xs font-black px-2 py-0.5 rounded shadow">
+                            ₹${p.rate.toLocaleString('en-IN')} / ${p.unit}
+                        </span>
+                    </div>
+
+                    <div class="p-4 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-bold text-gray-900 text-base leading-snug group-hover:text-red-700 transition">
+                                ${p.name}
+                            </h3>
+                            <p class="text-xs text-gray-500 mt-1 line-clamp-2">${p.desc}</p>
+                            <p class="text-[11px] text-amber-800 font-semibold mt-2">
+                                <i class="fa-solid fa-box-open mr-1"></i> न्यूनतम आर्डर: ${p.minQty} ${p.unit}
+                            </p>
+                        </div>
+
+                        <div class="mt-4 pt-3 border-t border-gray-100 flex items-center gap-2">
+                            <button onclick="addToQuote('${p.id}')" class="w-full bg-amber-100 hover:bg-amber-200 text-amber-950 font-bold py-2 px-3 rounded-xl text-xs flex items-center justify-center gap-1.5 transition active:scale-95 border border-amber-300">
+                                <i class="fa-solid fa-plus text-red-700"></i> कोटेशन में जोड़ें
+                            </button>
+                            <a href="https://wa.me/919304791102?text=नमस्ते%20श्री%20सांई%20टेन्ट%20बाजार%2C%20मुझे%20'${encodeURIComponent(p.name)}'%20के%20थोक%20भाव%20की%20जानकारी%20चाहिए।" target="_blank" class="bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-300 p-2 rounded-xl text-sm transition" title="व्हाट्सएप पूछताछ">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        // Category Filter Handling
+        function filterCategory(cat) {
+            // Update button styles
+            const buttons = document.querySelectorAll('.category-btn');
+            buttons.forEach(btn => {
+                if (btn.getAttribute('data-category') === cat) {
+                    btn.className = "category-btn active bg-red-700 text-white px-5 py-2 rounded-xl text-sm font-bold shadow-md transition";
+                } else {
+                    btn.className = "category-btn bg-white hover:bg-amber-100 text-gray-800 border border-amber-200 px-4 py-2 rounded-xl text-sm font-bold shadow-sm transition";
+                }
+            });
+            renderProducts(cat);
+        }
+
+        // Cart & Quote State Management
+        function addToQuote(productId) {
+            const product = productsData.find(p => p.id === productId);
+            if (!product) return;
+
+            if (quoteCart[productId]) {
+                quoteCart[productId].qty += (product.minQty || 1);
+            } else {
+                quoteCart[productId] = {
+                    ...product,
+                    qty: product.minQty || 1
+                };
+            }
+
+            saveCartState();
+            updateQuoteUI();
+            showToast(`'${product.name.substring(0, 22)}...' कोटेशन में जोड़ा गया!`);
+        }
+
+        function updateItemQty(productId, newQty) {
+            const qtyNum = parseInt(newQty);
+            if (isNaN(qtyNum) || qtyNum <= 0) {
+                removeFromQuote(productId);
+                return;
+            }
+            if (quoteCart[productId]) {
+                quoteCart[productId].qty = qtyNum;
+                saveCartState();
+                updateQuoteUI();
+            }
+        }
+
+        function removeFromQuote(productId) {
+            if (quoteCart[productId]) {
+                delete quoteCart[productId];
+                saveCartState();
+                updateQuoteUI();
+                showToast("आइटम हटा दिया गया");
+            }
+        }
+
+        function clearQuote() {
+            quoteCart = {};
+            saveCartState();
+            updateQuoteUI();
+            showToast("कोटेशन सूची खाली कर दी गई");
+        }
+
+        function updateQuoteUI() {
+            const tableBody = document.getElementById('quoteTableBody');
+            const drawerList = document.getElementById('drawerItemsList');
+            const emptyNotice = document.getElementById('emptyQuoteNotice');
+            const summarySection = document.getElementById('quoteSummarySection');
+            const cartBadge = document.getElementById('cartCountBadge');
+
+            const itemKeys = Object.keys(quoteCart);
+            const totalCount = itemKeys.length;
+            cartBadge.textContent = totalCount;
+
+            tableBody.innerHTML = '';
+            drawerList.innerHTML = '';
+
+            let grandTotal = 0;
+            let totalQuantity = 0;
+
+            if (totalCount === 0) {
+                emptyNotice.classList.remove('hidden');
+                summarySection.classList.add('hidden');
+                drawerList.innerHTML = `<p class="text-center text-gray-500 text-xs py-8">कोई आइटम नहीं चुना गया है।</p>`;
+                document.getElementById('drawerTotal').textContent = '₹0';
+                return;
+            }
+
+            emptyNotice.classList.add('hidden');
+            summarySection.classList.remove('hidden');
+
+            itemKeys.forEach(key => {
+                const item = quoteCart[key];
+                const itemTotal = item.qty * item.rate;
+                grandTotal += itemTotal;
+                totalQuantity += item.qty;
+
+                // Table row
+                const tr = document.createElement('tr');
+                tr.className = "hover:bg-amber-50/50 transition";
+                tr.innerHTML = `
+                    <td class="p-3">
+                        <div class="font-bold text-gray-900">${item.name}</div>
+                        <div class="text-[11px] text-gray-500">न्यूनतम: ${item.minQty} ${item.unit}</div>
+                    </td>
+                    <td class="p-3 text-center text-gray-600">${item.unit}</td>
+                    <td class="p-3 text-right font-medium">₹${item.rate.toLocaleString('en-IN')}</td>
+                    <td class="p-3 text-center">
+                        <input type="number" min="1" value="${item.qty}" 
+                            onchange="updateItemQty('${item.id}', this.value)" 
+                            class="w-20 px-2 py-1 text-center font-bold border border-amber-300 rounded-lg text-sm bg-white focus:outline-none focus:ring-1 focus:ring-red-600">
+                    </td>
+                    <td class="p-3 text-right font-bold text-red-700">₹${itemTotal.toLocaleString('en-IN')}</td>
+                    <td class="p-3 text-center">
+                        <button onclick="removeFromQuote('${item.id}')" class="text-gray-400 hover:text-red-600 transition p-1">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </button>
+                    </td>
+                `;
+                tableBody.appendChild(tr);
+
+                // Drawer row item
+                const dItem = document.createElement('div');
+                dItem.className = "flex items-center justify-between p-2.5 rounded-xl bg-gray-50 border border-gray-200 text-xs";
+                dItem.innerHTML = `
+                    <div class="flex-1 pr-2">
+                        <p class="font-bold text-gray-900">${item.name}</p>
+                        <p class="text-gray-500">${item.qty} ${item.unit} x ₹${item.rate}</p>
+                    </div>
+                    <div class="text-right">
+                        <p class="font-bold text-red-700">₹${itemTotal.toLocaleString('en-IN')}</p>
+                        <button onclick="removeFromQuote('${item.id}')" class="text-red-500 hover:underline text-[10px]">हटाएं</button>
+                    </div>
+                `;
+                drawerList.appendChild(dItem);
+            });
+
+            // Update Summaries
+            document.getElementById('summaryTotalItems').textContent = totalCount;
+            document.getElementById('summaryTotalQty').textContent = totalQuantity.toLocaleString('en-IN');
+            document.getElementById('summaryGrandTotal').textContent = '₹' + grandTotal.toLocaleString('en-IN');
+            document.getElementById('drawerTotal').textContent = '₹' + grandTotal.toLocaleString('en-IN');
+        }
+
+        // WhatsApp Direct Order Generator
+        function sendOrderToWhatsApp() {
+            const keys = Object.keys(quoteCart);
+            if (keys.length === 0) {
+                showToast("कृपया पहले सामग्री सूची में जोड़ें!");
+                return;
+            }
+
+            const name = document.getElementById('buyerName').value.trim() || 'ग्राहक';
+            const phone = document.getElementById('buyerPhone').value.trim() || 'नहीं दिया';
+            const address = document.getElementById('buyerAddress').value.trim() || 'नहीं दिया';
+            const note = document.getElementById('buyerNote').value.trim();
+
+            let message = `*नमस्ते श्री सांई टेन्ट बाजार (बगोदर)*%0A`;
+            message += `मैं अपनी टेन्ट सामग्री की खरीद के लिए कोटेशन/ऑर्डर भेज रहा हूँ:%0A%0A`;
+            message += `*ग्राहक विवरण:*%0A`;
+            message += `• *नाम / टेन्ट:* ${encodeURIComponent(name)}%0A`;
+            message += `• *मोबाइल:* ${encodeURIComponent(phone)}%0A`;
+            message += `• *पता / शहर:* ${encodeURIComponent(address)}%0A%0A`;
+
+            message += `*ऑर्डर सामग्री सूची:*%0A`;
+            let totalAmount = 0;
+            keys.forEach((k, idx) => {
+                const itm = quoteCart[k];
+                const cost = itm.qty * itm.rate;
+                totalAmount += cost;
+                message += `${idx + 1}. ${encodeURIComponent(itm.name)}: *${itm.qty} ${encodeURIComponent(itm.unit)}* (दर: ₹${itm.rate}) = ₹${cost}%0A`;
+            });
+
+            message += `%0A*अनुमानित कुल राशि:* ₹${totalAmount.toLocaleString('en-IN')}%0A`;
+            if (note) {
+                message += `*नोट:* ${encodeURIComponent(note)}%0A`;
+            }
+            message += `%0Aकृपया सामान की उपलब्धता, ट्रांसपोर्ट और पक्के बिल की जानकारी दें। धन्यवाद!`;
+
+            // WhatsApp link with primary business contact number (9304791102)
+            const waUrl = `https://wa.me/919304791102?text=${message}`;
+            window.open(waUrl, '_blank');
+        }
+
+        // Contact inquiry handler
+        function handleInquirySubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('inqName').value;
+            const phone = document.getElementById('inqPhone').value;
+            const msg = document.getElementById('inqMsg').value;
+
+            let waText = `*नई पूछताछ (श्री सांई टेन्ट बाजार Website)*%0A`;
+            waText += `• नाम: ${encodeURIComponent(name)}%0A`;
+            waText += `• फोन: ${encodeURIComponent(phone)}%0A`;
+            waText += `• आवश्यक सामग्री विवरण: ${encodeURIComponent(msg)}%0A`;
+
+            window.open(`https://wa.me/919304791102?text=${waText}`, '_blank');
+            showToast("धन्यवाद! आपका संदेश भेजा जा रहा है।");
+            e.target.reset();
+        }
+
+        // Print Estimate
+        function printQuotation() {
+            window.print();
+        }
+
+        // Drawer Controls
+        function openQuoteDrawer() {
+            document.getElementById('quoteDrawer').classList.remove('translate-x-full');
+            document.getElementById('drawerOverlay').classList.remove('hidden');
+        }
+
+        function closeQuoteDrawer() {
+            document.getElementById('quoteDrawer').classList.add('translate-x-full');
+            document.getElementById('drawerOverlay').classList.add('hidden');
+        }
+
+        // Mobile Nav toggle
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        }
+
+        // Toast notifications
+        function showToast(msg) {
+            const toast = document.getElementById('toastNotification');
+            const text = document.getElementById('toastMessage');
+            text.textContent = msg;
+            toast.classList.remove('translate-y-24', 'opacity-0');
+            setTimeout(() => {
+                toast.classList.add('translate-y-24', 'opacity-0');
+            }, 3000);
+        }
+
+        // Local Storage Persistence
+        function saveCartState() {
+            try {
+                localStorage.setItem('sai_tent_cart', JSON.stringify(quoteCart));
+            } catch (err) {
+                console.error("Storage error:", err);
+            }
+        }
+
+        function loadPersistedCart() {
+            try {
+                const saved = localStorage.getItem('sai_tent_cart');
+                if (saved) {
+                    quoteCart = JSON.parse(saved);
+                }
+            } catch (err) {
+                quoteCart = {};
+            }
+        }
+    </script>
+</body>
+</html>
